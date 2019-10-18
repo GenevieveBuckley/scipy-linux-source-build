@@ -4,5 +4,4 @@ before_install:
   - sudo apt-get install gcc gfortran python-dev libopenblas-dev liblapack-dev cython
 # git clone https://github.com/numpy/numpy.git
 # git clone https://github.com/scipy/scipy.git
-scripts:
-  - echo "hi"
+script: pytest
