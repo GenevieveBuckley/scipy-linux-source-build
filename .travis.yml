@@ -12,4 +12,6 @@ script:
   - cd ../scipy
   - python setup.py build
   - python setup.py install
-  - pytest
+  - cd ..
+  - python numpy_tests.py
+  - python scipy_tests.py
